@@ -8,4 +8,4 @@ In addition, there are two files convert the weights of  DarkNet Yolo model to
 
 In OpenCV implementation, you do not need to convert the weights of DarkNet yolo model because OpenCV can work with weights directly. But in TensorFlow implementation  DarkNet weights must be converted to ckpt or pb files - formats that model can be stored and loaded. There are two files whose names show which one is considered for converting to which format.
 
-For more information and downloading YOLO Weights see ![Darknet project website](https://pjreddie.com/darknet/yolo/)
+For more information and downloading YOLO Weights see [Darknet project website](https://pjreddie.com/darknet/yolo/)
