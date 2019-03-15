@@ -5,5 +5,4 @@ In OpenCV implementation, you do not need to convert the weights of DarkNet yolo
 
 For more information and downloading YOLO Weights see [Darknet project website](https://pjreddie.com/darknet/yolo/).
 
-There is a main.py in each folder that is the start point of runing the programs. Also, the initial configurations must be done in settings.py. After appropriate change of values in settings.py, you can run the code in main.py to see outputs.
-
+There is a main.py in each folder that is the start point of runing the programs. Also, the initial configurations must be done in settings.py. After appropriate change of values in settings.py, you can run the code in main.py to see outputs. In addition, the objects are cropped and stored in directories whose name is extracted_regions or extracted_objects.
