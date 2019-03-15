@@ -8,5 +8,5 @@ For more information and downloading YOLO Weights see [Darknet project website](
 There is a main.py in each folder that is the start point of runing the programs. Also, the initial configurations must be done in settings.py. After appropriate change of values in settings.py, you can run the code in main.py to see outputs. In addition, the objects are cropped and stored in directories whose name is extracted_regions or extracted_objects. Some samples of output is shown in following picture.
 
 <p align="center">
-![output_YOLO](https://user-images.githubusercontent.com/15813546/54441223-89b87100-4751-11e9-8a7e-a4d75566d025.png)  
+<img src="https://user-images.githubusercontent.com/15813546/54441223-89b87100-4751-11e9-8a7e-a4d75566d025.png">
 </p>
