@@ -3,24 +3,25 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 import copy 
+#Initialization
 from settings import *
 from utils import detection, draw_bounding_box
 
 
 
 def main():
-    #----------------initialization----------------
-    #reading data from settings.py    
-
-    # loading pre-trained model and config file
+    #----------------initialization----------------        
     t0 = time.time()
-    net = cv2.dnn.readNet(wieght_arg, config_arg)
-    print("Loaded graph in {:.2f}s".format(time.time()-t0))
-    capture = cv2.VideoCapture(input_video)    
-    ret, _ = capture.read()
     plt.ion()
     index = 0
-
+    print("Loaded graph in {:.2f}s".format(time.time()-t0))
+    capture = cv2.VideoCapture(input_video)    
+    
+    # loading pre-trained model and config file
+    net = cv2.dnn.readNet(wieght_arg, config_arg)
+    # start to process
+    ret, _ = capture.read()
+    
     # Is there any frame to read?
     while ret:
         index += 1
